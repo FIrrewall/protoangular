@@ -1,0 +1,15 @@
+<div class="mt-5">
+    <h2>Nosotros</h2>
+    <p>Cuando creas o editas una página web de negocios, tienes que ocuparte de diversos asuntos: ¿funciona la parte
+        técnica?, ¿el diseño de la página web se dirige al público objetivo? En cuanto al contenido, todavía se puede
+        estar retocando la página de inicio y las páginas de productos. Sin embargo, el apartado “Sobre nosotros” suele
+        recibir muy poca atención. No obstante, este puede contribuir de forma decisiva al éxito de una página web.</p>
+
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of equipo">
+            <h6>Nombre: {{item.nombre}}</h6>
+            <h6>Especialidad: {{item.especialidad}}</h6>
+            <a href="#">Leer mas...</a>
+        </li>
+    </ul>
+</div>
